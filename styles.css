@@ -1,0 +1,46 @@
+html body {
+    margin: 0;
+    height: 100;
+    font-family: Arial, sans-serif
+}
+
+body{
+display : flex;
+flex-direction: column
+}
+
+header {
+  background: linear-gradient(90deg, #47ff59, #2a8a52);
+  color: white;
+  padding: 14px 32px;
+}
+header h1 { margin: 0; font-size: 32px; }
+header p  { margin: 4px 0 0; }
+
+#map {
+  flex: 1;
+}
+
+.legend {
+  background: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  line-height: 20px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.legend i {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-right: 8px;
+  vertical-align: middle;
+  border: 1px solid #333;
+}
+
+.north-arrow {
+  background: none ;
+  box-shadow: none;
+  line-height: 0;
+  
+}
